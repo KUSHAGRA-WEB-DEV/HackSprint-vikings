@@ -1,10 +1,14 @@
+from doctest import master
+from msilib.schema import SelfReg
 import tkinter as tk
 import time
 from datetime import datetime
+from typing import Self
 class DigitalClock:
-    def_init(self,master)
-    self.master=master
-    master.title("Digital Clock")
-    self.is_24_hour=True
-    self.label
-             
+    def_init (self,master);
+    SelfReg.master=master;
+    aiter.title("Digital Clock")
+    Self.is_24_hour=True;
+    Self.label_60_minutes=True;
+    Self.label_60_seconds=True;
+    Self.update_clock=True;
