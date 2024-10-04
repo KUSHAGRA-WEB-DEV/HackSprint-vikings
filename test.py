@@ -13,4 +13,5 @@ class DigitalClock:
     Self.label_60_seconds=True;
     Self.update_clock=True;
     SelfReg.works_clock=True;
+  Current.date and time(def_init);
 
